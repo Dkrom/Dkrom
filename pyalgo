@@ -1,7 +1,8 @@
 /*****
  1: print  a array
+ 2; dupl-- search the duplicate string in given array of string
    
-1 == import array
+1* import array
       arr = array.array(1,2,3,1,5):
     
     #print the new original array
@@ -22,5 +23,20 @@
           print(arr[i], end"")
           print("\r")
           
-          
+   2* 
+       def class string hashing
+        def_str_(self,data)
+           str[0,m]
+           if 
+           hashes[i] = (compute_hash(s[i],1))
+           
+           sort(hashes.begin(), hashes.end())
+           
+           def_init_ groups
+           if(1==0)(hashes[i].first! = hashes[i-1].first)
+           groups.emplace.back().push_back(hashes[i].second);   
+        }
+        return groups:
+           
+           
      
