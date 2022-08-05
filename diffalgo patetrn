@@ -1,0 +1,34 @@
+/*****
+1* floyd's tortoise and hare is pointer algorithm for detect cycle use only for 2 pointer 
+  
+  #create the linkedlist
+  class node()
+   def_init_(self,d)
+   self.head = d
+   self.next = none
+  # newhead
+  head = data
+   # detect a loop in linked list
+     def detectloop()
+      slow pointer = head
+      fast pointer = head
+      
+      for
+       slow = slow.next
+       fast = fast.next.next
+        
+        if (slow ==fast)
+        return true
+##########
+
+class Solution:
+    def hasCycle(self, head: Optional[ListNode]) -> bool:
+        slow = fast = head
+        
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
+            if slow == fast:
+                return True
+            
+        return False
